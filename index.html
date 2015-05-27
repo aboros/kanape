@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vedd meg a kanapénk!</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="header" class="container">
+    <h1 id="site-name">Vedd meg a kanapénk!</h1>
+  </header>
+  <section id="content" class="container">
+    <div class="col">
+      <h3 class="star fittext">Über Akció!</h3>
+      <img class="img-responsive" src="images/kanape-1.jpg" alt="Nagyon kényelmes és jól néz ki">
+      <h2 class="headline">Nagyon kényelmes!</h2>
+      <p>Nemrég óta van például kutya aki mindig amikor véletlenül beszök fel akar menni rá azonnal, de <strong>soha nem hagyjuk neki azt.</strong> Embernek is nagyon kényelmes, mindig ráültünk egyből és rajta dekkoltunk amíg menni nem kellett, mert olyan írtózatosan kényelmes. Ezt azonnal felismertük amikor hazavittük, éppen ezért nagyon vigyáztunk rá és ráadásul mióta el akarjuk adni (ami jó régóta van) rá se ülünk sose.</p>
+      <a href="" class="button">Megveszem azonnal</a>
+    </div>
+    <div class="col">
+      <h3 class="star fittext">Igazából ülőgarnitúra!</h3>
+      <img class="img-responsive" src="images/kanape-2.jpg" alt="Nagyon kényelmes és jól néz ki">
+      <h2 class="headline">Ráadásul jó családból való!</h2>
+      <p>Nevelése kiváló, pszichéje kifogástalan. Amikor dícséretet érdemelt dícsértük, de a szigort se féltünk alkalmazni, ha úgy kellett történnie. Mindig kapott ajándékot szülinapjára és amikor beütötte magát a játszin akkor <strong>mindig kapott gyógypuszit,</strong> de azért nincs elkényeztetve sem.</p>
+      <p>Egészséges lelkű stabil személyiség.</p>
+      <a href="" class="button">Kell most rögtön</a>
+    </div>
+    <div class="col">
+      <h3 class="star fittext">Plusz kedvezmény!</h3>
+      <img class="img-responsive" src="images/kanape-3.jpg" alt="Nagyon kényelmes és jól néz ki">
+      <h2 class="headline">Szuper áron!</h2>
+      <a href="" class="button">Akarom magamnak</a>
+    </div>
+  </section>
+  <section id="no-jokes-allowed" class="container">
+    <h2>Ez most valami vicc?</h2>
+    <p>Biztosítalak róla, hogy <strong>a leghatározottabban nem vicc.</strong></p>
+  </section>
+  <section id="comments" class="container">
+    <h2>Ha mégse veszed meg, tegyél javaslat!</h2>
+    <p>Szerinted mégis vajon hogyan találhatnánk leggyorsabban új gazdát a kanapénknak. Fogjad vissza magad amikor a többiek javaslataira reagálsz és <strong>poént mondani tilos!</strong></p>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'veddmegakanapenk';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </section>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script type="text/javascript">
+    $("#site-name").fitText(0.6);
+    $(".headline").fitText(0.8);
+    $(".fittext").fitText(0.6);
+  </script>
+</body>
+</html>

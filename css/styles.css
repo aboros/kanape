@@ -1,0 +1,235 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 106, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 19, ../sass/styles.scss */
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+/* line 19, ../sass/styles.scss */
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+/* line 19, ../sass/styles.scss */
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+/* line 26, ../sass/styles.scss */
+body {
+  background-color: lime;
+  font-family: "Comic Sans", "Comic Sans MS", sans;
+}
+
+/* line 31, ../sass/styles.scss */
+p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 36, ../sass/styles.scss */
+h1 {
+  line-height: 1em;
+}
+
+/* line 40, ../sass/styles.scss */
+h1, h2 {
+  color: purple;
+  text-shadow: yellow 1px 1px 0, rgba(128, 0, 128, 0.5) 3px 3px 3px;
+}
+
+/* line 45, ../sass/styles.scss */
+h2 {
+  margin-bottom: 24px;
+}
+/* line 47, ../sass/styles.scss */
+h2.headline {
+  width: 75%;
+}
+
+/* line 52, ../sass/styles.scss */
+h3 {
+  color: yellow;
+  text-shadow: purple 1px 1px 0, rgba(128, 0, 128, 0.5) 3px 3px 3px;
+  width: 50%;
+  text-align: right;
+}
+
+/* line 59, ../sass/styles.scss */
+strong {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 0.3em;
+  background: yellow;
+}
+
+/* line 66, ../sass/styles.scss */
+section {
+  margin: 24px;
+  clear: both;
+}
+
+/* line 70, ../sass/styles.scss */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 24px;
+}
+
+/* line 77, ../sass/styles.scss */
+#site-name {
+  max-width: 960px;
+  margin-bottom: 40px;
+}
+
+/* line 82, ../sass/styles.scss */
+.button {
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: purple;
+  border: 4px solid purple;
+  color: yellow;
+  display: inline-block;
+  padding: 19px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 25%;
+}
+/* line 95, ../sass/styles.scss */
+.button:hover {
+  background-color: yellow;
+  color: purple;
+}
+
+/* line 101, ../sass/styles.scss */
+img.img-responsive {
+  height: auto;
+  width: 100%;
+}
+
+/* line 106, ../sass/styles.scss */
+.star {
+  background-image: url("../images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* line 113, ../sass/styles.scss */
+.col {
+  position: relative;
+}
+/* line 115, ../sass/styles.scss */
+.col h3.star {
+  padding: 24px;
+  position: absolute;
+  right: 0;
+  top: -1em;
+  width: 50%;
+  background-size: 240px 80px;
+  background-clip: padding-box;
+}
+
+/* line 126, ../sass/styles.scss */
+#comments {
+  border-top: 2px dashed purple;
+}
+
+@media (min-width: 1200px) {
+  /* line 131, ../sass/styles.scss */
+  .container {
+    padding: 0;
+  }
+
+  /* line 134, ../sass/styles.scss */
+  .col {
+    float: left;
+    width: 400px;
+  }
+
+  /* line 138, ../sass/styles.scss */
+  #comments {
+    margin: 0 auto;
+    width: 768px;
+  }
+}
