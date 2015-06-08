@@ -73,10 +73,12 @@ section {
   margin-right: auto;
   padding: 0 rhythm();
 }
+#header {
+  padding-top: rhythm();
+}
 
 #site-name {
   max-width: 960px;
-  margin-bottom: 40px;
 }
 
 .button {

@@ -152,13 +152,17 @@ section {
   padding: 0 32px;
 }
 
-/* line 77, ../sass/styles.scss */
-#site-name {
-  max-width: 960px;
-  margin-bottom: 40px;
+/* line 76, ../sass/styles.scss */
+#header {
+  padding-top: 32px;
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
+#site-name {
+  max-width: 960px;
+}
+
+/* line 84, ../sass/styles.scss */
 .button {
   font-size: 16px;
   line-height: 32px;
@@ -177,19 +181,19 @@ section {
   text-transform: uppercase;
   width: 35%;
 }
-/* line 96, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 .button:hover {
   background-color: yellow;
   color: purple;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 img.img-responsive {
   height: auto;
   width: 100%;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 .star {
   background-image: url("../images/star.svg");
   background-repeat: no-repeat;
@@ -197,11 +201,11 @@ img.img-responsive {
   background-size: contain;
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .col {
   position: relative;
 }
-/* line 116, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .col h3.star {
   padding: 32px;
   position: absolute;
@@ -212,24 +216,24 @@ img.img-responsive {
   background-clip: padding-box;
 }
 
-/* line 127, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 #comments {
   border-top: 2px dashed purple;
 }
 
 @media (min-width: 1200px) {
-  /* line 132, ../sass/styles.scss */
+  /* line 134, ../sass/styles.scss */
   .container {
     padding: 0;
   }
 
-  /* line 135, ../sass/styles.scss */
+  /* line 137, ../sass/styles.scss */
   .col {
     float: left;
     width: 400px;
   }
 
-  /* line 139, ../sass/styles.scss */
+  /* line 141, ../sass/styles.scss */
   #comments {
     margin: 0 auto;
     width: 768px;
