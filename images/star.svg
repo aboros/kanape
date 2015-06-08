@@ -1,77 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1408.9762"
-   height="1397.1503"
-   viewBox="0 0 1408.9762 1397.1503"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="star.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1188.0595"
-     inkscape:cy="481.43232"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1440"
-     inkscape:window-height="851"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(1310.2024,383.35578)">
-    <path
-       sodipodi:type="star"
-       style="fill:#ffcc00;fill-opacity:0.57948722;stroke:#ff00ff;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path4136"
-       sodipodi:sides="14"
-       sodipodi:cx="-605.71429"
-       sodipodi:cy="315.21936"
-       sodipodi:r1="705.22827"
-       sodipodi:r2="352.61414"
-       sodipodi:arg1="0.52165867"
-       sodipodi:arg2="0.74605815"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 5.7142629,666.64792 -346.76502,554.55595 l 139.44968,342.57851 -268.93797,-253.92641 -22.99943,369.15755 -132.1302,-345.46762 -180.89321,322.62036 30.84757,-368.5847 -302.95892,212.18428 187.71565,-318.69908 -365.01985,59.72249 307.4043,-205.69119 -354.7841,-104.56806 366.20772,-51.94365 -274.27912,-248.147632 352.47933,112.091977 -139.44973,-342.578515 268.93802,253.926408 22.99943,-369.157528 132.1302,345.467604 L -399.15243,-359.07962 -430.00001,9.5050825 -127.04113,-202.67919 -314.75674,116.01988 50.263089,56.297389 -257.14118,261.98858 97.642939,366.55665 -268.56481,418.50029 Z" />
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<polygon fill="#990099" stroke="#FFFF00" stroke-width="8" stroke-miterlimit="10" points="1.5,358.9 580.2,361 382.3,240.8 
+	637.8,321 582.7,156.4 750.6,312.5 853.3,93.2 853.3,344.2 1176.5,-1.7 1003.6,380 1264.2,550.8 976,508.7 875.8,768.1 825.7,527.6 
+	690.4,793.4 632.8,525.2 342.2,626.8 475,445.4 "/>
 </svg>

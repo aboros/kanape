@@ -149,20 +149,19 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 32px;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #header {
-  padding-top: 32px;
+  padding: 32px 32px 0 32px;
 }
 
-/* line 80, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 #site-name {
   max-width: 960px;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .button {
   font-size: 16px;
   line-height: 32px;
@@ -181,61 +180,81 @@ section {
   text-transform: uppercase;
   width: 35%;
 }
-/* line 98, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 .button:hover {
   background-color: yellow;
   color: purple;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 img.img-responsive {
   height: auto;
   width: 100%;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .star {
   background-image: url("../images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  width: 70%;
+  height: 300px;
+  position: absolute;
+  top: -150px;
+  right: -40px;
 }
 
-/* line 116, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .col {
   position: relative;
 }
-/* line 118, ../sass/styles.scss */
-.col h3.star {
+/* line 122, ../sass/styles.scss */
+.col h3.fittext {
   padding: 32px;
   position: absolute;
   right: 0;
   top: -1em;
   width: 50%;
-  background-size: 240px 80px;
-  background-clip: padding-box;
 }
 
-/* line 129, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
+.col-inner {
+  padding: 0 32px;
+}
+
+/* line 133, ../sass/styles.scss */
 #comments {
   border-top: 2px dashed purple;
+  padding-top: 32px;
 }
 
 @media (min-width: 1200px) {
-  /* line 134, ../sass/styles.scss */
+  /* line 139, ../sass/styles.scss */
   .container {
     padding: 0;
   }
 
-  /* line 137, ../sass/styles.scss */
-  .col {
-    float: left;
-    width: 400px;
+  /* line 142, ../sass/styles.scss */
+  #content {
+    display: flex;
   }
 
-  /* line 141, ../sass/styles.scss */
+  /* line 145, ../sass/styles.scss */
+  .col {
+    width: 400px;
+    padding-bottom: 128px;
+  }
+
+  /* line 149, ../sass/styles.scss */
   #comments {
     margin: 0 auto;
     width: 768px;
+  }
+
+  /* line 153, ../sass/styles.scss */
+  .button {
+    position: absolute;
+    bottom: 0;
   }
 }

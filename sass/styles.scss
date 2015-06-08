@@ -71,10 +71,9 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 rhythm();
 }
 #header {
-  padding-top: rhythm();
+  padding: rhythm() rhythm() 0 rhythm();
 }
 
 #site-name {
@@ -111,35 +110,48 @@ img.img-responsive {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  width: 70%;
+  height: 300px;
+  position: absolute;
+  top: -150px;
+  right: -40px;
 }
 
 .col {
   position: relative;
-  h3.star {
+  h3.fittext {
     padding: rhythm();
     position: absolute;
     right: 0;
     top: -1em;
     width: 50%;
-    background-size: 240px 80px;
-    background-clip: padding-box;
   }
 }
-
+.col-inner {
+  padding: 0 rhythm();
+}
 #comments {
   border-top: 2px dashed purple;
+  padding-top: rhythm();
 }
 
 @include breakpoint(1200px) {
   .container {
     padding: 0;
   }
+  #content {
+    display: flex;
+  }
   .col {
-    float: left;
     width: 400px;
+    padding-bottom: rhythm(4);
   }
   #comments {
     margin: 0 auto;
     width: 768px;
+  }
+  .button {
+    position: absolute;
+    bottom: 0;
   }
 }
