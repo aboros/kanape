@@ -65,8 +65,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 106, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 100%;
-  line-height: 1.5em;
+  font-size: 125%;
+  line-height: 1.6em;
 }
 
 /* line 19, ../sass/styles.scss */
@@ -85,7 +85,7 @@ h2 {
 
 /* line 19, ../sass/styles.scss */
 h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.2em;
 }
@@ -93,13 +93,13 @@ h3 {
 /* line 26, ../sass/styles.scss */
 body {
   background-color: lime;
-  font-family: "Comic Sans", "Comic Sans MS", sans;
+  font-family: "Kalam", cursive;
 }
 
 /* line 31, ../sass/styles.scss */
 p {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /* line 36, ../sass/styles.scss */
@@ -115,7 +115,7 @@ h1, h2 {
 
 /* line 45, ../sass/styles.scss */
 h2 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 /* line 47, ../sass/styles.scss */
 h2.headline {
@@ -140,7 +140,7 @@ strong {
 
 /* line 66, ../sass/styles.scss */
 section {
-  margin: 24px;
+  margin: 32px;
   clear: both;
 }
 
@@ -149,7 +149,7 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 /* line 77, ../sass/styles.scss */
@@ -160,34 +160,36 @@ section {
 
 /* line 82, ../sass/styles.scss */
 .button {
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 32px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   background-color: purple;
-  border: 4px solid purple;
+  border: 6px solid purple;
   color: yellow;
   display: inline-block;
-  padding: 19px;
+  padding: 9px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 25%;
+  width: 35%;
 }
-/* line 95, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .button:hover {
   background-color: yellow;
   color: purple;
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 img.img-responsive {
   height: auto;
   width: 100%;
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .star {
   background-image: url("../images/star.svg");
   background-repeat: no-repeat;
@@ -195,13 +197,13 @@ img.img-responsive {
   background-size: contain;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .col {
   position: relative;
 }
-/* line 115, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .col h3.star {
-  padding: 24px;
+  padding: 32px;
   position: absolute;
   right: 0;
   top: -1em;
@@ -210,24 +212,24 @@ img.img-responsive {
   background-clip: padding-box;
 }
 
-/* line 126, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 #comments {
   border-top: 2px dashed purple;
 }
 
 @media (min-width: 1200px) {
-  /* line 131, ../sass/styles.scss */
+  /* line 132, ../sass/styles.scss */
   .container {
     padding: 0;
   }
 
-  /* line 134, ../sass/styles.scss */
+  /* line 135, ../sass/styles.scss */
   .col {
     float: left;
     width: 400px;
   }
 
-  /* line 138, ../sass/styles.scss */
+  /* line 139, ../sass/styles.scss */
   #comments {
     margin: 0 auto;
     width: 768px;

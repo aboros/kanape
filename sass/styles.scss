@@ -3,12 +3,12 @@
 @import "compass/typography/vertical_rhythm";
 @import "breakpoint";
 
-$base-font-size: 16px;
-$base-line-height: 24px;
+$base-font-size: 20px;
+$base-line-height: 32px;
 $rhythm-unit: "px";
 
 // Specify font size for headings. Goes h1 h2 h3 and so on.
-$heading-sizes: 44px 38px 20px;
+$heading-sizes: 44px 38px 16px;
 
 // Baseline have, we must.
 @include establish-baseline();
@@ -25,7 +25,7 @@ $heading-sizes: 44px 38px 20px;
 
 body {
   background-color: lime;
-  font-family: "Comic Sans", "Comic Sans MS", sans;
+  font-family: "Kalam", cursive;
 }
 
 p {
@@ -80,6 +80,7 @@ section {
 }
 
 .button {
+  @include adjust-font-size-to(16px);
   @include border-radius(rhythm() / 2);
   @include leader();
   @include trailer();
@@ -87,11 +88,11 @@ section {
   border: rhythm(0.2) solid purple;
   color: yellow;
   display: inline-block;
-  padding: rhythm(0.8);
+  padding: rhythm(0.3);
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 25%;
+  width: 35%;
   &:hover {
     background-color: yellow;
     color: purple;
