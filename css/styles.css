@@ -229,7 +229,7 @@ img.img-responsive {
   padding-top: 32px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   /* line 139, ../sass/styles.scss */
   .container {
     padding: 0;
@@ -242,7 +242,7 @@ img.img-responsive {
 
   /* line 145, ../sass/styles.scss */
   .col {
-    width: 400px;
+    width: 33%;
     padding-bottom: 128px;
   }
 
