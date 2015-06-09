@@ -243,16 +243,17 @@ img.img-responsive {
   /* line 145, ../sass/styles.scss */
   .col {
     width: 33%;
+    float: left;
     padding-bottom: 128px;
   }
 
-  /* line 149, ../sass/styles.scss */
+  /* line 150, ../sass/styles.scss */
   #comments {
     margin: 0 auto;
     width: 768px;
   }
 
-  /* line 153, ../sass/styles.scss */
+  /* line 154, ../sass/styles.scss */
   .button {
     position: absolute;
     bottom: 0;
